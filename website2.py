@@ -55,7 +55,7 @@ with st.container():
         st.image(ImageOps.exif_transpose(img_pet_pics1))
         st.image(ImageOps.exif_transpose(img_pet_pics2))
         st.image(ImageOps.exif_transpose(img_pet_pics5))
-        st.title('in loving memory of fluffy and Milky Way:cry:')
+        st.title('In loving memory of fluffy and Milky Way:cry:')
         st.image(ImageOps.exif_transpose(img_pet_pics3))
         st.image(ImageOps.exif_transpose(img_pet_pics4))
    
@@ -63,9 +63,9 @@ with st.container():
    #---- contact from ----
 with st.container():
     st.write("---")
-    st.subheader("Contact me right here if you have any questions or you would like to book pet sitting")
-    st.subheader("Please use your real email so I can respond to you")
-    st.subheader("I will get back to you soon")
+    st.subheader("Contact me right here if you have any questions or you would like to book pet sitting.")
+    st.subheader("Please use your real email so I can respond to you.")
+    st.subheader("I will get back to you soon.")
     
 
     st.html("""
@@ -92,6 +92,7 @@ with st.container():
 </form>
    """)
         
+
 
 
 
