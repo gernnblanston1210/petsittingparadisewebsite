@@ -55,7 +55,7 @@ with st.container():
         st.image(ImageOps.exif_transpose(img_pet_pics1))
         st.image(ImageOps.exif_transpose(img_pet_pics2))
         st.image(ImageOps.exif_transpose(img_pet_pics5))
-        st.title('These are pets that passed away:cry:')
+        st.title('in loving memory of fluffy and Milky Way:cry:')
         st.image(ImageOps.exif_transpose(img_pet_pics3))
         st.image(ImageOps.exif_transpose(img_pet_pics4))
    
@@ -92,5 +92,6 @@ with st.container():
 </form>
    """)
         
+
 
 
