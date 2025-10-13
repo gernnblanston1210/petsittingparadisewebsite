@@ -44,7 +44,14 @@ with st.container():
     st.write('#3 Any animals who are guests at Pet Sitting Paradise will be in paradise while you are away.')
     st.write('#4 I have animals of my own, so I know how to take care of pets and to get them to love me.')
 
+
 # ---- SECOND SECTION ----
+with st.container():
+    st.write('---')
+    st.title('Pet pickup and delivery policy')
+    st.write('We are willing to pick up your pets from you and deliver them back to you within a certain distance. If you have any question about this, please contact me.')
+
+# ---- THIRD SECTION ----
 with st.container():
     st.write('---')
     st.title('Pictures of my pets')
@@ -90,6 +97,7 @@ with st.container():
 </form>
    """)
         
+
 
 
 
